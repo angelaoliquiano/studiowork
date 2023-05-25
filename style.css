@@ -94,10 +94,13 @@ h3 {
 
 .article1 {
     width: 50%;
+    float: left;
+    padding: 5px;
 }
 
 .article2 {
     width: 50%;
+    display: table;
 }
 
 .article3 {
