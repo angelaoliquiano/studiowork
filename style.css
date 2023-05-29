@@ -15,8 +15,6 @@ header{
     max-width: 630px;
     margin: 0 auto;
     padding: 2em 1em 2em 1 em;
-    font-family: futura;
-    font-weight: lighter;
 }
 
 h1 {
@@ -25,6 +23,8 @@ h1 {
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
+    font-family: futura;
+    font-weight: lighter;
 }
 
 main-img {
@@ -37,20 +37,15 @@ main {
     padding: 0 1em;
 }
 
+.bodytext{
+    line-height: 20px;
+    
+}
+
 .linksection {
     font-weight: lighter;
     font-size: small;
     color: #858585;
-}
-
-
-button {
-    margin:0 auto;
-    padding: 0 1em;
-    background-color: #F2E2B7;
-    border: 10px;
-    font-size: 14px;
-    border-radius: 10px;
 }
 
 h2 {
@@ -65,7 +60,8 @@ h4 {
     margin: 0 auto;
     padding: 0 1em;
     font-weight: lighter;
-    color: #858585;
+    color: #535353;
+    font: Calluna, serif;
 }
 
 main p {
@@ -74,6 +70,12 @@ main p {
     padding: 0 1em;
     font-size: 16px;
     line-height: 22px;
+}
+
+.authorshare {
+    text-align:justify;
+    display: flex;
+    vertical-align: auto;
 }
 
 .social {
@@ -93,18 +95,21 @@ h3 {
 }
 
 .article1 {
-    width: 50%;
+    width: 30%;
     float: left;
-    padding: 5px;
+    margin: 0.625rem;
 }
 
 .article2 {
-    width: 50%;
+    width: 30%;
     display: table;
+    margin-left: 1%;
+    float: left;
 }
 
 .article3 {
-    width: 50%;
+    width: 30%;
+    display: table;
 }
 
 section h3 {
